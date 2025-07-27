@@ -5,26 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback de Instagram</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-
+<script src="https://kit.fontawesome.com/8de251dec3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- As a link -->
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     
-    <a class="navbar-brand" href="#">Navbar</a>
-    buttt
-    
+    <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+       
+ <div class="container">
+  <div class="row justify-content-end">
+    <div class=col-auto> <button type="button" class="btn btn-primary bg-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Create a new post
+</button> 
+</div>
+<div class="col-auto"> 
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   <i class="fa-regular fa-calendar-check"></i>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Profile</a></li>
+    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+    <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+    <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+  </ul>
+</div>
+</div>
+          </div>
+
+</div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel f-5">Create a new post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <label for="exampleFormControlTextarea1" class="form-label f-4">Caption:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Add the caption of your post here"></textarea>
+
+  <div class="mt-4 mb-5">
+  <button><i class="fa-regular fa-image"></i></button>
+  <button><i class="fa-regular fa-paper-plane"></i></button>
   </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary bg-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  
 </nav>
-modal
+
+
 <div>
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+      <i class="fa-solid fa-calendar-days"></i>
+    </button>
+  
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+      <i class="fa-solid fa-film"></i>
+    </button>
   </li>
 
 </ul>
@@ -33,42 +84,42 @@ modal
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                             <div class="d-flex justify-content-center"> 
-<div class="card" style=" width:40%; 18rem;"> 
-    <div class="row"> 
-               <div class="col-12 col-md-4"> 
-                <img src="https://images.fanpop.com/images/image_uploads/The-Killers-the-killers-77158_1280_1024.jpg" class="img-fluid" alt="The Killers">
+<div class="card" style=" width:40%;"> 
+    <div class="row align-items-center"> 
+               <div class ="col-12 col-md-4 p-1"> 
+                <img src="https://images.fanpop.com/images/image_uploads/The-Killers-the-killers-77158_1280_1024.jpg" class="img-fluid " alt="The Killers">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 p-1">
                  <img src="https://new-transcendence.com/wp-content/uploads/2018/07/35898115_10156088620455020_864163182485176320_n.jpg" class="img-fluid" alt="Blue October">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 p-1">
                  <img src="https://lastfm.freetls.fastly.net/i/u/770x0/8722efd0d164e1fb15923b8b81c6d247.jpg" class="img-fluid" alt="Sixpence None The Richer"> 
                 </div>
                   
     </div>
-    <div class="row">
-        <div class="col-12 col-md-4">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4 p-1">
                     <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/d/d/f/7/ddf7ec0ef7c715984bb0ed5f92fcac71.jpg" class="img-fluid" alt="Epica">
   
         </div>
-        <div class="col-12 col-md-4">   
+        <div class="col-12 col-md-4 p-1">   
                     <img src="https://www.midiorama.com/wp-content/uploads/2015/09/Linkin-Park-Logo-2.jpg" class="img-fluid" alt="linkin Park">
 
         </div>
-        <div class="col-12 col-md-4">   
+        <div class="col-12 col-md-4 p-1">   
                     <img src="https://149354881.v2.pressablecdn.com/wp-content/uploads/2020/03/avenged-sevenfold-1024x575.jpg" class="img-fluid" alt="Avenged Sevenfold">
         </div>
     </div>
-    <div class="row"> 
-        <div class="col-12 col-md-4">
+    <div class="row align-items-center"> 
+        <div class="col-12 col-md-4 p-1">
                      <img src="https://imagez.tmz.com/image/2b/16by9/2023/04/19/2bf0eb6bf64a40a39f1efc5a6a469b47_xl.jpg" class="img-fluid" alt="James Blunt">
  
         </div>
-        <div class="col-12 col-md-4"> 
+        <div class="col-12 col-md-4 p-1"> 
                       <img src="https://images4.fanpop.com/image/photos/19100000/the-calling-the-calling-19129029-800-600.jpg" class="img-fluid" alt="The Calling">
 
         </div>
-        <div class="col-12 col-md-4"> 
+        <div class="col-12 col-md-4 p-1"> 
                       <img src="https://cdn.apollo.audio/one/radio-legacy/cd/0814a/8100a/2b070/9fbf9/ef21d/9045c/ADELETOP.jpg?quality=80&format=jpg&crop=80,0,518,778&resize=crop0" class="img-fluid" alt="Adele">
 
         </div>
@@ -80,17 +131,19 @@ modal
   <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
     
     
-    soy el tab num 2 (solo es referencia, lo remuevo al final jeje)
-                                          <div class="d-flex justify-content-center"> 
+    ss
+                                          <div class="d-flex justify-content-center" > 
        
-    <div class="card" style="width: 40rem;">
+    <div class="card border-1 m-4"  style="width: 20rem;">
       <div class="row">
                        <div class="col-12 col-md-12"> 
-      <h2 class="card-title">SIUUUUU</h2>
+     <div> <div class="d-flex justify-content-between">
+                        <h2 class="card-title fs-3">SIUUUUU</h2> <h3 class="date fs-6">05/31</h3> </div>     
+      </div>
   <img src="https://static1.hoy.es/www/multimedia/201808/28/media/cortadas/chilena-cristiano-efe-ksFB-U60756392680JYH-624x385@RC.jpg" class="card-img-top" alt="El mundo se detuvo a aplaudir al mejor jugador europeo de todos los tiempos">
   <div class="card-body">
-    
-    <p class="card-text">Aquel día Zidane no lo podía creer, el mismo Buffon se quedó anonadado ante la épica jugada del mejor jugador madridista de todos los tiempos, superando a Di Stéfano.</p>
+    <p class="card-title fs-5 fw-bolder">350,000 likes</p>
+    <p class="card-text fs-6">Aquel día Zidane no lo podía creer, el mismo Buffon se quedó anonadado ante la épica jugada del mejor jugador madridista de todos los tiempos, superando a Di Stéfano.</p>
     
   </div>
                         </div>               
@@ -100,14 +153,16 @@ modal
 
                                     <div class="d-flex justify-content-center"> 
  
-<div class="card" style="width: 40rem;">
+<div class="card border-1 m-4" style="width: 20rem;">
   <div class="row">
                        <div class="col-12 col-md-12"> 
-  <h2 class="card-title">Messi, Messi</h2>
+  <div> <div class="d-flex justify-content-between">
+                        <h2 class="card-title fs-3">Messi, Messi</h2> <h3 class="date fs-6">11/18</h3> </div>     
+      </div>
   <img src="https://cdn2.mediotiempo.com/uploads/media/2022/05/01/anos-messi-debuto-goleador-barcelona.jpg" class="card-img-top" alt="Messi">
   <div class="card-body">
-    
-    <p class="card-text">Uno de los mejores jugadores de todos los tiempos, solo por debajo de Pelé, Maradona y Ronaldo Nazario, haber visto a Messi ha sido sufrir sus goles, viendo cómo batía al legendario Casillas en cada Clásico, y aunque juagaba para Barcelona, lo admiro bastante.</p>
+    <p class="card-title fs-5 fw-bolder">400,000 likes</p>
+    <p class="card-text fs-6">Uno de los mejores jugadores de todos los tiempos, solo por debajo de Pelé, Maradona y Ronaldo Nazario, haber visto a Messi ha sido sufrir sus goles, viendo cómo batía al legendario Casillas en cada Clásico, y aunque juagaba para Barcelona, lo admiro bastante.</p>
   </div>
 </div>
   </div>
@@ -116,14 +171,16 @@ modal
 
                                      <div class="d-flex justify-content-center"> 
 
-<div class="card" style="width: 40rem;">
+<div class="card border-1 m-4" style="width: 20rem;">
   <div class="row">
                        <div class="col-12 col-md-12"> 
-  <h2 class="card-title">O Fenômeno</h2>
+ <div> <div class="d-flex justify-content-between">
+                        <h2 class="card-title fs-3">O Fenómeno</h2> <h3 class="date fs-6">07/01</h3> </div>     
+      </div>
   <img src="https://4.bp.blogspot.com/-1NJWBFwKG8k/V3PMxFgxswI/AAAAAAAAADs/TWG4ebiRlSMv0hUm91qtwfNebF1J9VP2wCLcB/s1600/ronaldo.jpg" class="card-img-top" alt="Ronaldo Nazario">
   <div class="card-body">
-    
-    <p class="card-text">De no haberse lesionado la rodilla, pudo haber sido el mejor de la historia en palabras del gran Maradona, Nazario ha sido el mejor jugador que he visto, sé que Maradona es mejor y quizá también lo sea Pelé, pero el surgido en Cruzeiro puede sentarse en la mesa de estos gigantes</p>
+     <p class="card-title fs-5 fw-bolder">256,000 likes</p>
+    <p class="card-text fs-">De no haberse lesionado la rodilla, pudo haber sido el mejor de la historia en palabras del gran Maradona, Nazario ha sido el mejor jugador que he visto, sé que Maradona es mejor y quizá también lo sea Pelé, pero el surgido en Cruzeiro puede sentarse en la mesa de estos gigantes</p>
     
   </div>
 </div>
